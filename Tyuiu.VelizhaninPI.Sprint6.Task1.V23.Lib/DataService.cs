@@ -20,7 +20,7 @@ namespace Tyuiu.VelizhaninPI.Sprint6.Task1.V23.Lib
             int count = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                y = Math.Round((Math.Sin(x) + 2*x/3 - Math.Cos(x) * 4*x), 2);
+                y = Math.Round((Math.Sin(x) + 2.0*x/3.0 - Math.Cos(x) * 4.0*x), 2);
                 valueArray[count] = y;
                 count++;
             }
