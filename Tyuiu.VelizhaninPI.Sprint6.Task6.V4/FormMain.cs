@@ -28,6 +28,7 @@ namespace Tyuiu.VelizhaninPI.Sprint6.Task6.V4
             openFilePath = openFileDialogTask.FileName;
             textBoxInput.Text = File.ReadAllText(openFilePath);
             groupBoxOutput.Text = groupBoxOutput.Text + " " + openFileDialogTask.FileName;
+            buttonDone.Enabled = true;
         }
 
         private void buttonDone_Click(object sender, EventArgs e)

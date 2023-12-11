@@ -41,7 +41,7 @@ namespace Tyuiu.VelizhaninPI.Sprint6.Task7.V10
             this.pictureBoxAvatar.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAvatar.Image")));
             this.pictureBoxAvatar.Location = new System.Drawing.Point(12, 12);
             this.pictureBoxAvatar.Name = "pictureBoxAvatar";
-            this.pictureBoxAvatar.Size = new System.Drawing.Size(228, 231);
+            this.pictureBoxAvatar.Size = new System.Drawing.Size(228, 242);
             this.pictureBoxAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxAvatar.TabIndex = 0;
             this.pictureBoxAvatar.TabStop = false;
@@ -57,7 +57,7 @@ namespace Tyuiu.VelizhaninPI.Sprint6.Task7.V10
             // 
             // buttonClose
             // 
-            this.buttonClose.Location = new System.Drawing.Point(377, 252);
+            this.buttonClose.Location = new System.Drawing.Point(380, 251);
             this.buttonClose.Name = "buttonClose";
             this.buttonClose.Size = new System.Drawing.Size(103, 29);
             this.buttonClose.TabIndex = 2;
@@ -69,12 +69,13 @@ namespace Tyuiu.VelizhaninPI.Sprint6.Task7.V10
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(492, 293);
+            this.ClientSize = new System.Drawing.Size(503, 292);
             this.Controls.Add(this.buttonClose);
             this.Controls.Add(this.labelAbout);
             this.Controls.Add(this.pictureBoxAvatar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FormAbout";
-            this.Text = "Справка";
+            this.Text = "О программе";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAvatar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

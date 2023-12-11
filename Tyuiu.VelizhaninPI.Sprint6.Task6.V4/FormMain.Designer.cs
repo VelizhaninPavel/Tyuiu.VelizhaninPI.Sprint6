@@ -33,10 +33,10 @@ namespace Tyuiu.VelizhaninPI.Sprint6.Task6.V4
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.openFileDialogTask = new System.Windows.Forms.OpenFileDialog();
             this.toolTipButtons = new System.Windows.Forms.ToolTip(this.components);
-            this.panelButtons = new System.Windows.Forms.Panel();
             this.buttonAbout = new System.Windows.Forms.Button();
             this.buttonDone = new System.Windows.Forms.Button();
             this.buttonOpen = new System.Windows.Forms.Button();
+            this.panelButtons = new System.Windows.Forms.Panel();
             this.panelTask = new System.Windows.Forms.Panel();
             this.groupBoxTask = new System.Windows.Forms.GroupBox();
             this.textBoxTask = new System.Windows.Forms.TextBox();
@@ -65,18 +65,6 @@ namespace Tyuiu.VelizhaninPI.Sprint6.Task6.V4
             this.toolTipButtons.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.toolTipButtons.ToolTipTitle = "Подсказка";
             // 
-            // panelButtons
-            // 
-            this.panelButtons.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panelButtons.Controls.Add(this.buttonAbout);
-            this.panelButtons.Controls.Add(this.buttonDone);
-            this.panelButtons.Controls.Add(this.buttonOpen);
-            this.panelButtons.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelButtons.Location = new System.Drawing.Point(0, 0);
-            this.panelButtons.Name = "panelButtons";
-            this.panelButtons.Size = new System.Drawing.Size(882, 75);
-            this.panelButtons.TabIndex = 0;
-            // 
             // buttonAbout
             // 
             this.buttonAbout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -94,6 +82,7 @@ namespace Tyuiu.VelizhaninPI.Sprint6.Task6.V4
             // buttonDone
             // 
             this.buttonDone.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.buttonDone.Enabled = false;
             this.buttonDone.Image = ((System.Drawing.Image)(resources.GetObject("buttonDone.Image")));
             this.buttonDone.Location = new System.Drawing.Point(136, 6);
             this.buttonDone.Name = "buttonDone";
@@ -115,6 +104,18 @@ namespace Tyuiu.VelizhaninPI.Sprint6.Task6.V4
             this.toolTipButtons.SetToolTip(this.buttonOpen, "Открыть файл\r\nВыберите нужный файл для обработки\r\n");
             this.buttonOpen.UseVisualStyleBackColor = false;
             this.buttonOpen.Click += new System.EventHandler(this.buttonOpen_Click);
+            // 
+            // panelButtons
+            // 
+            this.panelButtons.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panelButtons.Controls.Add(this.buttonAbout);
+            this.panelButtons.Controls.Add(this.buttonDone);
+            this.panelButtons.Controls.Add(this.buttonOpen);
+            this.panelButtons.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelButtons.Location = new System.Drawing.Point(0, 0);
+            this.panelButtons.Name = "panelButtons";
+            this.panelButtons.Size = new System.Drawing.Size(882, 75);
+            this.panelButtons.TabIndex = 0;
             // 
             // panelTask
             // 

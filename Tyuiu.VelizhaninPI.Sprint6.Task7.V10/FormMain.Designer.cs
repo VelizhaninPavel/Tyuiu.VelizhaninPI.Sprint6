@@ -90,6 +90,7 @@ namespace Tyuiu.VelizhaninPI.Sprint6.Task7.V10
             // buttonSave
             // 
             this.buttonSave.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.buttonSave.Enabled = false;
             this.buttonSave.Image = ((System.Drawing.Image)(resources.GetObject("buttonSave.Image")));
             this.buttonSave.Location = new System.Drawing.Point(177, 12);
             this.buttonSave.Name = "buttonSave";
@@ -103,6 +104,7 @@ namespace Tyuiu.VelizhaninPI.Sprint6.Task7.V10
             // buttonDone
             // 
             this.buttonDone.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.buttonDone.Enabled = false;
             this.buttonDone.Image = ((System.Drawing.Image)(resources.GetObject("buttonDone.Image")));
             this.buttonDone.Location = new System.Drawing.Point(96, 12);
             this.buttonDone.Name = "buttonDone";
